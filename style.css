@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #EAC4D5;
+    text-align: center;
+}
+.container {
+    height: 70vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* chahe hum kinta bhi content le lein,
+    70% container dabba paas rhega */
+}
+
+/* screen ka 70% with container
+aur game 60%, mtlb container=game
+(almost) */
+
+.game
+{
+ height: 60vmin;
+ width:60vmin;  
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 1.5vmin;
+ /* game ka dabba ka width hi kam kr
+diye,ofc newline  */
+}
+
+.box{
+    height: 18vmin;
+    width:18vmin;
+    border-radius: 1rem ;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2) ;
+    font-size: 8vmin;
+    background-color: #FFD972;
+    color: #8C5F66;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #AD4856;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1rem;
+    border: none;
+}
+#id{
+    color: #17183B;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size:5vmin ;
+    color: #AD4856;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.msg-container {
+    height: 100vmin;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column ;
+   gap: 4rem;
+
+}
+.hide {
+    display: none;
+}
